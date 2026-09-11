@@ -20,7 +20,15 @@ class Cercle:
         self._centre = centre
     def __str__(self):
         return f'Cercle : ({self.__rayon}, {self._centre})'
-    def
+    def diametre (self)-> float:
+        return 2 * self.__rayon
+    def perimetre(self)-> float:
+        return 2 * math.pi * self.__rayon
+    def surface(self)-> float:
+        return math.pi * self.__rayon * self.__rayon
+    def 
+
+class Rectangle:
 
 
 if __name__ == '__main__':
